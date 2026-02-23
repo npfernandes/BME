@@ -10,7 +10,7 @@ from scipy.stats import linregress
 from scipy.special import logsumexp
 from sklearn.linear_model import LinearRegression
 #import warnings
-import BME_tools as bt
+import BME.BME_tools as bt
 #import csv
 
 known_methods = ["BME","BER","CHI2_L2","CHI1_L1"]
