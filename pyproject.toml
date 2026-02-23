@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BME"
+version = "0.1.0"
+description = "Bayesian/Maximum Entropy ensemble reweighting for molecular simulations."
+authors = [
+    { name = "Sandro Bottaro", email = "sandro_dot_bottaro@bio.ku.dk" }
+]
+readme = "README.rst"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.4"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas"
+]
+
+[tool.setuptools]
+packages = ["", "toy_model"]
+include-package-data = true
