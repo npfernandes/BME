@@ -18,7 +18,3 @@ dependencies = [
     "scikit-learn",
     "pandas"
 ]
-
-[tool.setuptools]
-packages = ["", "toy_model"]
-include-package-data = true

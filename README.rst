@@ -1,7 +1,4 @@
 
-.. image:: https://app.travis-ci.com/KULL-Centre/BME.svg?branch=main
-    :target: https://app.travis-ci.com/KULL-Centre/BME
-    
 Integrating Molecular Simulation and Experimental Data:  A Bayesian/Maximum Entropy Approach
 ==============
 
