@@ -1,2 +1,2 @@
-from main import Reweight
+from BME.main import Reweight
 __all__ = ['Reweight']
