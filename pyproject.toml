@@ -20,5 +20,8 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["", "toy_model"]
+package-dir = {"" = "src"}
 include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
